@@ -6,7 +6,7 @@
 <div class="text-center">
     <h1 class="display-4">Contatos</h1>
     <div class="float-start mb-3">
-         <button type="button" class="btn btn-primary me-1 " title="Cadastrar Contato"><i class="bi bi-person-plus-fill"></i>  Novo Contato</button>
+         <a class="btn btn-primary me-1 " role="button" title="Cadastrar Contato" asp-controller="Contact" asp-action="Create"><i class="bi bi-person-plus-fill"></i>  Novo Contato</a>
     </div>
 
 <table class="table table-hover">
@@ -27,8 +27,8 @@
       <td>85 99999-9999</td>
       <td>
           <div class="btn-group" role="group" aria-label="Ações">
-            <button type="button" class="btn btn-secondary me-1" title="Editar"><i class="bi bi-pencil-fill"></i></button>
-            <button type="button" class="btn btn-danger" title="Excluir"><i class="bi bi-trash-fill"></i></button>
+            <a role="button" class="btn btn-secondary me-1" title="Editar" asp-controller="Contact" asp-action="Edit"><i class="bi bi-pencil-fill"></i></a>
+            <a role="button" class="btn btn-danger" title="Excluir" asp-controller="Contact" asp-action="Delete"><i class="bi bi-trash-fill"></i></a>
           </div>
       </td>
     </tr>
@@ -39,8 +39,8 @@
       <td>85 99999-9999</td>
       <td>
           <div class="btn-group" role="group" aria-label="Ações">
-            <button type="button" class="btn btn-secondary me-1" title="Editar"><i class="bi bi-pencil-fill"></i></button>
-            <button type="button" class="btn btn-danger" title="Excluir"><i class="bi bi-trash-fill"></i></button>
+            <a role="button" class="btn btn-secondary me-1" title="Editar" asp-controller="Contact" asp-action="Edit"><i class="bi bi-pencil-fill"></i></a>
+            <a role="button" class="btn btn-danger" title="Excluir" asp-controller="Contact" asp-action="Delete"><i class="bi bi-trash-fill"></i></a>
           </div>
       </td>
     </tr>
@@ -51,8 +51,8 @@
       <td>85 99999-9999</td>
       <td>
           <div class="btn-group" role="group" aria-label="Ações">
-            <button type="button" class="btn btn-secondary me-1" title="Editar"><i class="bi bi-pencil-fill"></i></button>
-            <button type="button" class="btn btn-danger" title="Excluir"><i class="bi bi-trash-fill"></i></button>
+            <a role="button" class="btn btn-secondary me-1" title="Editar" asp-controller="Contact" asp-action="Edit"><i class="bi bi-pencil-fill"></i></a>
+            <a role="button" class="btn btn-danger" title="Excluir" asp-controller="Contact" asp-action="Delete"><i class="bi bi-trash-fill"></i></a>
           </div>
       </td>
     </tr>
